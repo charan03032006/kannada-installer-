@@ -3,6 +3,7 @@ const { checkGrammar } = require('./grammar');
 const { generateCaptions } = require('./captions');
 const { transliterate } = require('./transliteration');
 const { searchWord } = require('./dictionary');
+const { checkPosterText } = require('./poster');
 
 module.exports = {
   checkSpelling,
@@ -10,5 +11,6 @@ module.exports = {
   checkGrammar,
   generateCaptions,
   transliterate,
-  searchWord
+  searchWord,
+  checkPosterText
 };
