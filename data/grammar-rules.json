@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sentence-ending",
+    "description": "Kannada sentences should normally end with appropriate punctuation.",
+    "examples": ["ಇದು ಒಂದು ಉದಾಹರಣೆ.", "ನೀವು ಹೇಗಿದ್ದೀರಿ?"]
+  },
+  {
+    "id": "formal-announcement",
+    "description": "Use respectful and complete wording for formal announcements.",
+    "examples": ["ಎಲ್ಲರಿಗೂ ಆತ್ಮೀಯ ಆಹ್ವಾನ.", "ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆತ್ಮೀಯವಾಗಿ ಆಹ್ವಾನಿಸುತ್ತೇವೆ."]
+  }
+]
