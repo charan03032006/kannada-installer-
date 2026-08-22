@@ -1,11 +1,47 @@
 {
   "name": "kannada-language-toolkit",
-  "version": "0.1.0",
-  "description": "Kannada Varnamala, spelling, grammar, captions, transliteration and dictionary toolkit.",
+  "version": "0.2.0",
+  "description": "A dependency-free Kannada language toolkit for Varnamala, spelling correction, grammar checks, poster text correction, captions, transliteration, and dictionary search.",
   "main": "src/index.js",
-  "type": "commonjs",
-  "scripts": {
-    "test": "node --test"
+  "exports": {
+    ".": "./src/index.js",
+    "./spelling": "./src/spelling/index.js",
+    "./grammar": "./src/grammar/index.js",
+    "./captions": "./src/captions/index.js",
+    "./transliteration": "./src/transliteration/index.js",
+    "./dictionary": "./src/dictionary/index.js",
+    "./poster": "./src/poster/index.js"
   },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/spelling/index.js && node --check src/grammar/index.js && node --check src/captions/index.js && node --check src/transliteration/index.js && node --check src/dictionary/index.js && node --check src/poster/index.js"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "kannada",
+    "kannada-language",
+    "kannada-grammar",
+    "kannada-spelling",
+    "kannada-transliteration",
+    "indian-languages",
+    "language-toolkit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charan03032006/kannada-installer-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charan03032006/kannada-installer-/issues"
+  },
+  "homepage": "https://github.com/charan03032006/kannada-installer-#readme",
   "license": "MIT"
 }
