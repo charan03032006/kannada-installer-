@@ -1,0 +1,14 @@
+# Development files
+.github/
+tests/
+examples/
+docs/
+.gitignore
+.npmignore
+
+# Local/editor files
+node_modules/
+*.log
+.DS_Store
+.vscode/
+.idea/
