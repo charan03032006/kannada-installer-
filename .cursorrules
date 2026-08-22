@@ -1,0 +1,9 @@
+# Kannada Language Toolkit
+
+- Use Node.js 18+.
+- Install with `npm install` and verify with `npm test`.
+- Read `AGENTS.md` before making repository changes.
+- Preserve Kannada UTF-8 data.
+- Do not remove language data without explicit reason.
+- Add tests for behavior changes.
+- Never execute untrusted remote scripts automatically.
