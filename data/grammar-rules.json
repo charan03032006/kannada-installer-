@@ -1,12 +1,92 @@
-[
-  {
-    "id": "sentence-ending",
-    "description": "Check that a complete sentence ends with suitable punctuation.",
-    "examples": ["ಇದು ಒಂದು ಉದಾಹರಣೆ.", "ನೀವು ಹೇಗಿದ್ದೀರಿ?"]
-  },
-  {
-    "id": "formal-announcement",
-    "description": "Use respectful and complete wording for formal announcements.",
-    "examples": ["ಎಲ್ಲರಿಗೂ ಆತ್ಮೀಯ ಆಹ್ವಾನ.", "ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆತ್ಮೀಯವಾಗಿ ಆಹ್ವಾನಿಸುತ್ತೇವೆ."]
+{
+  "version": "1.0.0",
+  "scope": "Modern Kannada grammar and writing-quality rule catalogue",
+  "note": "Kannada grammar is extensive and varies by literary/spoken register. These categories provide an extensible rule base; they are not a claim that every possible grammatical construction can be reduced to deterministic rules.",
+  "categories": {
+    "sentence_structure": [
+      {"id":"sov-order","rule":"Default clause order is Subject–Object–Verb (SOV).","example":"ನಾನು ಕನ್ನಡ ಮಾತನಾಡುತ್ತೇನೆ."},
+      {"id":"finite-verb","rule":"A clause normally has one finite/conjugated verb; coordinated actions commonly use non-finite/participial forms.","example":"ನಾನು ಶಾಲೆಗೆ ಹೋಗಿ ಮನೆಗೆ ಬಂದೆ."},
+      {"id":"relative-participle","rule":"Relative participles commonly precede the noun they modify.","example":"ಕನ್ನಡ ಮಾತನಾಡುವ ವಿದ್ಯಾರ್ಥಿ."}
+    ],
+    "noun_and_case": [
+      {"id":"nominative","marker":"ಉ/subject form","function":"subject"},
+      {"id":"accusative","marker":"ಅನ್ನು/ನ್ನು","function":"definite object"},
+      {"id":"instrumental","marker":"ಇಂದ/ದಿಂದ","function":"means, instrument, source in appropriate contexts"},
+      {"id":"dative","marker":"ಗೆ/ಕ್ಕೆ","function":"recipient, experiencer, goal"},
+      {"id":"genitive","marker":"ಅ/ದ/ನ/ರ","function":"possession or relationship"},
+      {"id":"locative","marker":"ಅಲ್ಲಿ/ಲ್ಲಿ","function":"location"},
+      {"id":"vocative","marker":"ಏ","function":"address"}
+    ],
+    "pronouns": [
+      {"id":"person","rule":"Pronouns distinguish person and number; third-person forms also distinguish gender in many contexts."},
+      {"id":"honorific","rule":"ಅವರು and corresponding verb agreement can express honorific reference."},
+      {"id":"reflexive","rule":"ತಾನು/ತನ್ನ forms are used for reflexive reference according to syntactic context."}
+    ],
+    "verb_morphology": [
+      {"id":"past","marker":"-ದ/-ಇದ- families","rule":"Past forms must agree with the relevant subject in person/number/gender where the construction requires agreement."},
+      {"id":"nonpast","marker":"-ಉತ್ತ- families","rule":"Modern Kannada non-past/progressive forms use context and auxiliary structure to distinguish meanings."},
+      {"id":"future-literary","marker":"-ುವ- families","rule":"Literary Kannada has future forms that are less common in everyday spoken Kannada."},
+      {"id":"negative","rule":"Negative constructions use appropriate negative auxiliaries/forms such as ಇಲ್ಲ, ಅಲ್ಲ, ಆಗುವುದಿಲ್ಲ according to construction."},
+      {"id":"imperative","rule":"Commands use appropriate imperative forms and honorific alternatives."},
+      {"id":"conditional","rule":"Conditional/contingent constructions use appropriate participial or conditional morphology."},
+      {"id":"causative","rule":"Causative morphology can be formed with causative suffixes such as -ಇಸು according to verb class."}
+    ],
+    "agreement": [
+      {"id":"person-number","rule":"Finite verb forms must match the grammatical subject where agreement is expressed."},
+      {"id":"gender","rule":"Third-person finite forms can encode masculine, feminine, neuter, or honorific/plural distinctions depending on register and construction."}
+    ],
+    "nonfinite_and_auxiliaries": [
+      {"id":"gerund","rule":"Gerund/participial forms such as -ಇ/-ಿ can link sequential actions."},
+      {"id":"progressive","rule":"Progressive constructions commonly combine a participial form with ಇರು and the appropriate finite agreement."},
+      {"id":"perfective-compounds","rule":"Compound verb constructions combine lexical and auxiliary verbs to express aspectual or modal meaning."}
+    ],
+    "sandhi_and_word_formation": [
+      {"id":"vowel-sandhi","rule":"Adjacent vowels can change or contract at morpheme/word boundaries according to Kannada phonology."},
+      {"id":"consonant-sandhi","rule":"Consonants can assimilate or change at morphological boundaries."},
+      {"id":"verb-sandhi","rule":"Final vowels of verb stems can undergo deletion or change before vowel-initial suffixes."},
+      {"id":"samasa","rule":"Compound words combine lexical elements into a single semantic unit; analysis must preserve the intended compound relation."},
+      {"id":"tatsama-tadbhava","rule":"Distinguish Sanskrit-derived tatsama forms from adapted tadbhava forms where the lexical database provides evidence."}
+    ],
+    "word_classes": [
+      {"id":"noun","rule":"Names persons, places, things, concepts, or entities."},
+      {"id":"pronoun","rule":"Substitutes for or refers to noun phrases."},
+      {"id":"verb","rule":"Expresses an action, event, state, or process."},
+      {"id":"adjective","rule":"Modifies a noun; agreement and attributive forms depend on construction."},
+      {"id":"adverb","rule":"Modifies a verb, adjective, clause, or sentence; -ಆಗಿ is one productive adverbial formation."},
+      {"id":"postposition","rule":"Relationship words commonly follow their complements."},
+      {"id":"conjunction","rule":"Links words, phrases, or clauses."},
+      {"id":"interjection","rule":"Expresses emotion or reaction."}
+    ],
+    "register_and_usage": [
+      {"id":"grantha-vs-spoken","rule":"Keep literary (ಗ್ರಾಂಥಿಕ) and colloquial (ಗ್ರಾಮ್ಯ/ಮಾತುಕತೆ) forms distinct rather than marking one as universally incorrect."},
+      {"id":"formal-writing","rule":"Use respectful, complete wording for official notices, invitations, and public posters."},
+      {"id":"punctuation","rule":"Use appropriate punctuation and avoid inserting spaces inside Kannada grapheme clusters."}
+    ],
+    "school_grammar_topics": [
+      "ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯಗಳು",
+      "ಸಂಧಿ",
+      "ಸಮಾಸ",
+      "ತತ್ಸಮ-ತದ್ಭವ",
+      "ಧಾತು ಮತ್ತು ಕ್ರಿಯಾಪದ",
+      "ನಾಮಪದ",
+      "ಸರ್ವನಾಮ",
+      "ವಿಶೇಷಣ",
+      "ಕ್ರಿಯಾವಿಶೇಷಣ",
+      "ಕಾಲಗಳು",
+      "ಕರ್ತರಿ-ಕರ್ಮಣಿ ಪ್ರಯೋಗ",
+      "ನಿಷೇಧಾರ್ಥಕ ವಾಕ್ಯ",
+      "ಪ್ರಶ್ನಾರ್ಥಕ ವಾಕ್ಯ",
+      "ಸಂಯುಕ್ತ ಮತ್ತು ಸರಳ ವಾಕ್ಯ",
+      "ಗಾದೆಗಳು",
+      "ಜೋಡಿ ಪದಗಳು",
+      "ದ್ವಿರುಕ್ತಿ ಮತ್ತು ಅನುಕರಣಾವ್ಯಯ",
+      "ಪದವಿಚ್ಛೇದನ",
+      "ಅರ್ಥವ್ಯತ್ಯಾಸ",
+      "ಸಮಾನಾರ್ಥಕ ಪದಗಳು",
+      "ವಿರುದ್ಧಾರ್ಥಕ ಪದಗಳು",
+      "ರೂಪನಿಷ್ಪತ್ತಿ",
+      "ಛಂದಸ್ಸು",
+      "ಅಲಂಕಾರ"
+    ]
   }
-]
+}
