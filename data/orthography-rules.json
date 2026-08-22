@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "purpose": "High-risk Kannada spelling and public-content quality checks",
+  "rules": [
+    {"id":"common-incorrect-vs-correct","incorrect":"ಬಾಷೆ","correct":"ಭಾಷೆ","note":"Use the standard spelling for language."},
+    {"id":"common-incorrect-vs-correct","incorrect":"ವಿದ್ಯಾರ್ತಿ","correct":"ವಿದ್ಯಾರ್ಥಿ","note":"Use the standard spelling for student."},
+    {"id":"common-incorrect-vs-correct","incorrect":"ಹಾರ್ಧಿಕ","correct":"ಹಾರ್ದಿಕ","note":"Use ಹಾರ್ದಿಕ in greetings such as ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು."},
+    {"id":"common-incorrect-vs-correct","incorrect":"ಎಲ್ಲಾರಿಗೂ","correct":"ಎಲ್ಲರಿಗೂ","note":"Use the standard formal plural dative form."},
+    {"id":"common-incorrect-vs-correct","incorrect":"ಆಮಂತ್ರಣ","correct":"ಆಹ್ವಾನ","note":"Both can occur in different lexical senses, so this is a contextual suggestion rather than a universal replacement."}
+  ],
+  "grapheme_safety": [
+    "Preserve Kannada combining vowel signs and virama sequences.",
+    "Never split a Kannada akshara into unrelated Unicode code points during correction.",
+    "Do not normalize a valid word merely because it differs by literary/spoken register.",
+    "Do not replace a word without checking its surrounding context."
+  ],
+  "public_content_checklist": [
+    "Spelling",
+    "Grammar",
+    "Word choice",
+    "Agreement",
+    "Punctuation",
+    "Unicode integrity",
+    "Formal register when appropriate"
+  ]
+}
