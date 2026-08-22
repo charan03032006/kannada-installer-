@@ -4,6 +4,7 @@ const { generateCaptions } = require('./captions');
 const { transliterate } = require('./transliteration');
 const { searchWord } = require('./dictionary');
 const { checkPosterText } = require('./poster');
+const { createInstaller, getAvailableFeatures, normalizeFeatures } = require('./installer');
 
 module.exports = {
   checkSpelling,
@@ -12,5 +13,8 @@ module.exports = {
   generateCaptions,
   transliterate,
   searchWord,
-  checkPosterText
+  checkPosterText,
+  createInstaller,
+  getAvailableFeatures,
+  normalizeFeatures
 };
