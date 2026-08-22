@@ -1,0 +1,48 @@
+{
+  "source": "uploaded-poster-review-2026-08-22",
+  "language": "kn-IN",
+  "posters": [
+    {
+      "id": "varamahalakshmi",
+      "title": "ವರಮಹಾಲಕ್ಷ್ಮಿ ಹಬ್ಬದ ಶುಭಾಶಯಗಳು",
+      "status": "corrected",
+      "original_problem": "ಶ್ರೀ ಲಕ್ಷ್ಮೀ ಕೃಪೆಯಿಂದ ನಿಮ್ಮ ಜೀವನ ಸುಖ, ಶಾಂತಿ ಮತ್ತು ಸಮೃದ್ಧಿಯಿಂದೂ, ನೆಡಲಿ.",
+      "corrected_text": "ಶ್ರೀ ಲಕ್ಷ್ಮೀ ಕೃಪೆಯಿಂದ ನಿಮ್ಮ ಜೀವನ ಸುಖ, ಶಾಂತಿ ಮತ್ತು ಸಮೃದ್ಧಿಯಿಂದ ತುಂಬಿರಲಿ.\n\nವರಮಹಾಲಕ್ಷ್ಮಿ ಹಬ್ಬದ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು.",
+      "notes": [
+        "Replaced the unnatural ending 'ಸಮೃದ್ಧಿಯಿಂದೂ, ನೆಡಲಿ' with the grammatically natural 'ಸಮೃದ್ಧಿಯಿಂದ ತುಂಬಿರಲಿ'."
+      ]
+    },
+    {
+      "id": "independence-day",
+      "title": "ಸ್ವಾತಂತ್ರ್ಯ ದಿನಾಚರಣೆಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು",
+      "status": "corrected",
+      "original_problem": "ಸ್ವಾತಂತ್ರ್ಯವು ನಮ್ಮ ಹಕ್ಕು ಮಾತ್ರವಲ್ಲ, ನಮ್ಮ ಜವಾಬ್ದಾರಿಯೂ ಹೌದು. ದೇಶಕ್ಕಾಗಿ ಒಂದಾಗಿ, ದೇಶವನ್ನು ಮತ್ತಷ್ಟು ಅಭಿವೃದ್ಧಿ ಬೆಳೆಸೋಣ.",
+      "corrected_text": "ಸ್ವಾತಂತ್ರ್ಯವು ನಮ್ಮ ಹಕ್ಕು ಮಾತ್ರವಲ್ಲ, ನಮ್ಮ ಜವಾಬ್ದಾರಿಯೂ ಹೌದು.\nದೇಶಕ್ಕಾಗಿ ಒಂದಾಗಿ, ದೇಶವನ್ನು ಮತ್ತಷ್ಟು ಅಭಿವೃದ್ಧಿಯತ್ತ ಕೊಂಡೊಯ್ಯೋಣ.\n\nಜೈ ಹಿಂದ್!\nವಂದೇ ಮಾತರಂ!",
+      "notes": [
+        "Corrected the faulty construction 'ಅಭಿವೃದ್ಧಿ ಬೆಳೆಸೋಣ' to the natural 'ಅಭಿವೃದ್ಧಿಯತ್ತ ಕೊಂಡೊಯ್ಯೋಣ'."
+      ]
+    },
+    {
+      "id": "international-youth-day",
+      "title": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಯುವ ದಿನ ಶುಭಾಶಯಗಳು",
+      "status": "corrected",
+      "original_problem": "ಅಂತರಾಷ್ಟ್ರೀಯ ಯುವ ದಿನ ಶುಭಾಶಯಗಳು",
+      "corrected_text": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಯುವ ದಿನ\nಶುಭಾಶಯಗಳು\n\nಯುವ ಶಕ್ತಿ – ಹೊಸ ಚೇತನ;\nಉಜ್ವಲ ಭವಿಷ್ಯ – ನಮ್ಮ ನಿರ್ಮಾಣ.\nನಮ್ಮ ಕನಸುಗಳು, ದೇಶದ ಕನಸುಗಳು.\nಯುವಶಕ್ತಿಯೇ ದೇಶದ ಶಕ್ತಿ!",
+      "notes": [
+        "Standardized 'ಅಂತರಾಷ್ಟ್ರೀಯ' to 'ಅಂತರರಾಷ್ಟ್ರೀಯ'.",
+        "Repunctuated the body copy to make the sentence structure clear and natural."
+      ]
+    },
+    {
+      "id": "teachers-day",
+      "title": "ಶಿಕ್ಷಕರ ದಿನಾಚರಣೆಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು",
+      "status": "reviewed",
+      "original_problem": "ಗುರುವನ್ನು ದೇವರೆಂತೆ ಭಜಿಸು, ಅವರ ಜ್ಞಾನವೇ ಜೀವನದ ದಾರಿ.",
+      "corrected_text": "ಶಿಕ್ಷಕರ ದಿನಾಚರಣೆಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು.\n\n“ಗುರುವನ್ನು ದೇವರಂತೆ ಭಜಿಸು, ಅವರ ಜ್ಞಾನವೇ ಜೀವನದ ದಾರಿ.”\n\nನಿಮ್ಮ ಮಾರ್ಗದರ್ಶನವೇ ನಮ್ಮ ಯಶಸ್ಸಿನ ಅಧ್ಯಾಯ.\nನಿಮ್ಮ ಅಭಿಮಾನಕ್ಕೆ ನಮ್ಮ ನಮನಗಳು.",
+      "notes": [
+        "Corrected 'ದೇವರೆಂತೆ' to the standard form 'ದೇವರಂತೆ'.",
+        "The remaining poster wording was reviewed for basic spelling, grammar, and punctuation."
+      ]
+    }
+  ]
+}
